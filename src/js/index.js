@@ -12,11 +12,10 @@ import "./icons.js";
 function SimpleCounter(props) {
 	return (
 		<div className="bigCounter">
-			<div className="clock">
-				<i className="fa-solid fa-clock"></i>
-			</div>
+			<div className="clock">⌚</div>
 			<div className="four">{props.digitFour % 10}</div>
 			<div className="three">{props.digitThree % 10}</div>
+			<div className="colon">:</div>
 			<div className="two">{props.digitTwo % 10}</div>
 			<div className="one">{props.digitOne % 10}</div>
 		</div>
